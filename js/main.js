@@ -3,7 +3,7 @@ $(function(){
   $('#serch').bind('click',(function(){
     $.ajax({
       type: 'GET',
-      url: 'http://data.kaohsiung.gov.tw/Opendata/DownLoad.aspx?Type=2&CaseNo1=AV&CaseNo2=2&FileType=1&Lang=C&FolderType=',
+      url: 'https://data.kaohsiung.gov.tw/Opendata/DownLoad.aspx?Type=2&CaseNo1=AV&CaseNo2=2&FileType=1&Lang=C&FolderType=',
       success: function(data) {
         $('.content').show();
         $('.content-list').html('');
